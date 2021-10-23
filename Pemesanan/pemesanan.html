@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Pemesanan Barang</title>
+</head>
+<body style="background-color:mediumturquoise"></body>
+<h1 style="text-align: center;">
+    <a href="">Home |
+    <a href="">Generate Link |
+    <a href="">Trasaction history |
+    <a href="">policy |<input type="button" value="logout">
+</h1>
+<iframe src="photo"></iframe>
+  <form action="/client.php" method="POST" enctype="multipart/form-data">
+    <label>Unggah Foto</em><br>
+    <input type="file" name="photo"></label>
+  </form>
+ <body>
+     <table>
+     <form>
+         <tr>
+             <td>Judul: </td>
+             <td><input type="text" placeholder=". . . . . . . ."></td>
+         </tr>
+         <tr>
+             <td>Deskripsi: </td>
+             <td><textarea name="Description" cols="20" rows="5"></textarea></td>
+         </tr>
+         <tr>
+             <td>Nomor Akun: </td>
+             <td><input type="text" placeholder="nomor akun"></td>
+         </tr>
+         <tr>
+            <td>Bank: </td>
+            <td><input type="text" list="Bank">
+            <datalist id="Bank" name="Bank">
+                <option value="mandiri"></option>
+                <option value="BCA"></option>
+                <option value="BRI"></option>
+                <option value="CIMB"></option>
+                <option value="BNI"></option>
+            </datalist></td>
+        </tr>
+        <tr>
+            <td>Pemegang Akun </td>
+            <td><input type="text" placeholder="Account Holder"></td>
+        </tr>
+        <tr>
+            <td>Transaksi</td>
+            <td><input type="number"></td>
+        </tr>
+     </form>
+     </table>
+ </body>
+    <body>
+        <dd>
+    <div>
+        Jika melakukan transaksi ke 3 orang, maka isi bagian dibawah ini
+        <form action="/action_page.php">
+            <dd style="color: green;">
+            <input type="checkbox" id="send1" name="send1" value="send1">
+            <label for="send1">Kirim ke handphone</label><br>
+            <input type="checkbox" id="send2" name="send2" value="send2">
+            <label for="send2">Kirim ke email</label><br>
+    </div>
+        </dd>
+    </body>
+    <body>
+        <table>
+        <form>
+            <tr>
+                <td>Kirim ke handphone : </td>
+                <td><input type="text" placeholder="kirim ke handphone"></td>
+            </tr>
+            <tr>
+                <td>Kirim ke email</td>
+                <td><input type="email"placeholder="kirim ke email"></td>
+            </tr>
+        </form>
+        </table>
+    </body>
+            <p>
+                <input style="color: rgb(62, 163, 62)" type="submit" value="GENERATE LINK">
+            </p>
