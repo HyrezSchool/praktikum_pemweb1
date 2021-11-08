@@ -1,0 +1,86 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.fieldset {
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+}
+
+.content {
+    margin: auto;
+}
+
+img {
+    width: 150px;
+    height: 180px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto {
+    flex: 1;
+}
+
+.biodata {
+    margin-left: 10px;
+    flex: 3;
+}
+
+.iframe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.yt {
+    flex: 1;
+    margin: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.map {
+    flex: 1;
+    margin: 10px;
+}
+
+.sosmed {
+    flex: 1;
+    width: 200px;
+    height: 150px;
+}
+
+.gmap {
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ngelink {
+    width: 250px;
+    height: 150px;
+    margin-right: 80px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.kategori {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.judul {
+    font-size: 30px;
+}
+
+article {background-color: #d4d0d0;}
+article h2 {font-family: sans-serif; font-style: italic; padding: 20px;}
+article img {float: left; width: 150px;margin: 0px 20px 0px 20px;}
+article p {padding-bottom: 30px; font-family: helvetica; font-style: 19pc; text-align: justify; padding-left: 20px; padding-right: 20px;}
+
+a {text-decoration: none; color:black}
