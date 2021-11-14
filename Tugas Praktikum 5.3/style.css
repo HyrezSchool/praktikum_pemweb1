@@ -1,0 +1,67 @@
+.atas { 
+    width: 900px;
+    height: 100px;
+    margin: auto;
+}
+
+.yellow {
+    width: 200px;
+    float: left;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.red {
+    width: 680px;
+    float: right;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.row {
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.column {
+    height: 100px;
+}
+
+.line {
+    height: 400px;
+}
+
+.green {
+    width: 200px;
+    float: left;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.silver {
+    width: 457px;
+    position: absolute;
+    left: 33%;
+    background-color: rgb(153, 153, 153);
+    border: 1px solid black;
+}
+
+.bluesky {    
+    width: 200px;
+    float: right;
+    background-color: skyblue;
+    border: 1px solid black;
+}
+
+.bawah { 
+    width: 900px;
+    height: 100px;
+    position: absolute;
+    bottom: -2.5%;
+    left: 16.5%;
+    background-color: blue;
+    margin: auto;
+    border: 1px solid black;
+}
