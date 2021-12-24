@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JS | Restu - SI 14 | Chat Message</title>
+</head>
+<body style="background-color: aqua;">
+    <div id="hasil" style="width: 500px; height: 600px; border: 5px solid black;"></div>
+        <div style="display: flex;">
+            <input id="masukan" type="text" size="50">
+            <button onclick="tampil()">Kirim Pesan</button>
+        </div>
+
+        <script>
+            let hasil = document.getElementById("hasil")
+            let input = document.getElementById("masukan")
+            let penampung = ""
+
+
+            function tampil(){
+                penampung = penampung + input.value + "<br>"
+                hasil.innerHTML = penampung
+                input.value = ""
+            }
+        </script>
+    
+</body>
+</html>
