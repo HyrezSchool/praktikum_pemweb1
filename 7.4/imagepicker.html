@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Restu Hidayatullah SI-14 -->
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Mandiri JS Image Picker</title>
+</head>
+
+<body style="background-color: aquamarine;">
+    <h1>Selamat Datang di Aquamarine</h1>
+    <select name="" id="daftar" onchange="tampil()">
+        <option value="">AYO!! Pilih Makhluk Laut Kesukaanmu!</option>
+        <option value="paus">Paus Biru</option>
+        <option value="hiu">Hiu Megalodon</option>
+        <option value="orca">Paus Orca</option>
+        <option value="lumb">Lumba-Lumba</option>
+        <option value="hiup">Hiu Paus</option>
+        
+    </select>
+    <div id="hasil"></div>
+    <script>
+        let daftar = document.getElementById("daftar")
+        let hasil = document.getElementById("hasil")
+
+        function tampil() {
+            switch (daftar.value) {
+                case "paus":
+                hasil.innerHTML = '<img src="paus.png" alt="">'
+                alert("Ini adalah gambar paus.png")
+                break;
+
+                case "hiu":
+                hasil.innerHTML = '<img src="hiumegalodon.png" alt="">'
+                alert("Ini adalah gambar hiumegalodon.png")
+                break;
+
+                case "orca":
+                hasil.innerHTML = '<img src="orca.png" alt="">'
+                alert("Ini adalah gambar paus orca.png")
+                break;
+
+                case "lumb":
+                hasil.innerHTML = '<img src="lumba-lumba.png" alt="">'
+                alert("Ini adalah lumba-lumba.png")
+                break;
+
+                case "hiup":
+                hasil.innerHTML = '<img src="hiupaus.png" alt="">'
+                alert("Ini adalah gambar hiupaus.png")
+                break;
+
+                default:
+                alert("Pilih Yang Lain Yaa")
+                break;
+            }
+        }
+    </script>
+</body>

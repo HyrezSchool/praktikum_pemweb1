@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Restu Hidayatullah SI-14 -->
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Mandiri JS Login</title>
+    <script>
+        function login() {
+            let user = document.getElementById('username').value
+            let pass = document.getElementById('password').value
+            if (user == 'Restuhidayatullah23' && pass == 'NFNICE') {
+                alert('Anda Berhasil Login')
+                window.location = "loginberhasil.html"
+            } else if (user == '' && pass == '') {
+                alert('Username & Password Tidak Boleh Kosong') 
+            } else if (user == 'Restuhidayatullah23' && pass != 'NFNICE') {
+                alert('Password yang anda masukan salah !!')
+            } else if (user != 'Restuhidayatullah23' && pass != 'NFNICE') {
+                alert('Username yang anda masukan salah !!')
+            } else if (user != 'Restuhidayatullah23' && pass != 'NFNICE'){
+                alert('Username yang anda masukan salah !!')
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="username" placeholder="masukan username">
+    <input type="password" id="password" placeholder="masukan password">
+    <button onclick="login()">Login</button>
+</body>
+</html>
